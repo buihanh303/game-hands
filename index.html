@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="reset.css" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Project Hand</title>
+    </head>
+    <body>
+        <div class="game">
+            <h1 class="title-game">Game Hands</h1>
+            <div class="game-content">
+                <div class="user">
+                    <h3 class="item-title">User</h3>
+                    <div class="list-item">
+                        <span class="user-item" id="scissors">✌️</span>
+                        <span class="user-item" id="rock">✊</span>
+                        <span class="user-item" id="paper">🖐</span>
+                    </div>
+                </div>
+                <div class="computer">
+                    <h3 class="item-title">Computer</h3>
+                    <div class="list-item">
+                        <span class="computer-item">🖐</span>
+                    </div>
+                </div>
+            </div>
+            <div class="text-result">
+                <span>text</span>
+            </div>
+            <button type="submit" class="play-again">Play again</button>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
